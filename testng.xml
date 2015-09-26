@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuit" verbose="10">
+    <parameter name="url" value="https://www.tripcase.com/login"/>
+    <parameter name="email" value="erikstb@yandex.ru"/>
+    <parameter name="password" value="12345678"/>
+    <parameter name="firstName" value="test_er"/>
+    <parameter name="lastName" value="test_er_lm"/>
+
+    <test name="Regression">
+        <classes>
+            <class name="tests.LoginPage"/>
+        </classes>
+    </test>
+</suite>

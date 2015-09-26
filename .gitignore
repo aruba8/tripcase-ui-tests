@@ -1,0 +1,12 @@
+### Java template
+*.class
+build/
+### JetBrains template
+# Covers JetBrains IDEs
+*.iml
+
+## Directory-based project format:
+.idea/
+
+### Maven template
+target/
